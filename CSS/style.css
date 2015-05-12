@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+
+}
+
+.container{
+	border-left: 5px rgb(168,210,243) solid;
+	min-width: 500px;
+	background-color: white;
+	margin-left: 5rem;
+}
+.container1 {
+	margin-left: 5rem;
+	width: 500px;
+	border-radius: 5px;
+	background-color: rgb(168,210,243);
+	padding-bottom: 2rem;
+	padding-right: .5rem;
+}
+
+.icon{
+	width: 10%;
+	height: 10%;
+margin-left:-6.65rem;
+margin-top: -.5rem;
+}
+
+.date{ 
+	font-size: 8px;
+	font-style: normal;
+	color: #ccc;
+	margin-left: -10rem;
+}
+
+
+.time{ 
+	font-size: 12px;
+	font-style: normal;
+	color: rgb(168,210,243);
+	margin-left: -10rem;
+	font-family: verdana;
+}
+
+.container2 {
+	margin-left: 5rem;
+	width: 500px;
+	border-radius: 5px;
+	background-color: rgb(46,108,176);
+	padding-bottom: 2rem;
+	padding-right: .5rem;
+	margin-top: 2rem;
+}
+
+
+.time2{ 
+	font-size: 12px;
+	font-style: normal;
+	color: rgb(46,108,176);
+	margin-left: -10rem;
+	font-family: verdana;
+}
+
+.header {
+	font-size:24px;
+	color: white;	
+	font-weight: bold;
+	position: relative;
+	font-family: verdana;
+	padding: 5px 20px 20px 20px;
+	}
+
+.text {
+	font-size: 10px;
+	color:white;
+	font-family: verdana;
+	font-weight: normal;
+	padding-left: .75rem;
+}
